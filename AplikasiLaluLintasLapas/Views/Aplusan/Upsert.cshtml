@@ -1,0 +1,472 @@
+﻿@model AplikasiLaluLintasLapas.Models.Aplusan
+@using AplikasiLaluLintasLapas.SD
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Aplusan";
+}
+
+<body>
+    <div style="justify-content:center" class="card shadow border-0 mt-4 p-4">
+
+        <div class="row" style="display:flex; justify-content:center">
+            <div class="col-sm-12; col-md-12; col-lg-12">
+
+                <div class="card-body p-4">
+                    <form method="post" enctype="multipart/form-data" class="row">
+
+                        <div class="row p-3 border" style="border-radius: 20px; background-color: #000080">
+
+                            @if (Model.Id != 0)
+                            {
+                                title = "Edit Aplusan";
+                            }
+
+                            <input type="hidden" asp-for="@Model.Id" />
+
+                            <div asp-validation-summary="ModelOnly"></div>
+
+                            <div class="col-12 border-bottom">
+                                <h2 style="text-align:center;color:white">@title</h2>
+                            </div>
+
+                            <div class="col-12 pt-4">
+                                <div class="row">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="JumlahWBP"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="JumlahWBP" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="JumlahWBP" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Tahanan"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Tahanan" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Tahanan" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white;font-weight:bold;" asp-for="TahananPria"></label>
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white; font-weight:bold;" asp-for="TahananWanita"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="TahananPria" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="TahananPria" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="TahananWanita" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="TahananWanita" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Narapidana"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Narapidana" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Narapidana" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white;font-weight:bold;" asp-for="NarapidanaPria"></label>
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white; font-weight:bold;" asp-for="NarapidanaWanita"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="NarapidanaPria" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="NarapidanaPria" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="NarapidanaWanita" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="NarapidanaWanita" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="DariRupam"> Dari Rupam</label>
+                                    </div>
+                                    <div class="col-8">
+                                        @Html.DropDownListFor(m => m.DariRupam, new List<SelectListItem>
+                                            {
+                                                new SelectListItem{Text="Rupam I Pagi", Value = "Rupam I Pagi"},
+                                                new SelectListItem{Text="Rupam I Siang", Value = "Rupam I Siang"},
+                                                new SelectListItem{Text="Rupam I Malam", Value = "Rupam I Malam"},
+                                                new SelectListItem{Text="Rupam II Pagi", Value = "Rupam II Pagi"},
+                                                new SelectListItem{Text="Rupam II Siang", Value = "Rupam II Siang"},
+                                                new SelectListItem{Text="Rupam II Malam", Value = "Rupam II Malam"},
+                                                new SelectListItem{Text="Rupam III Pagi", Value = "Rupam III Pagi"},
+                                                new SelectListItem{Text="Rupam III Siang", Value = "Rupam III Siang"},
+                                                new SelectListItem{Text="Rupam III Malam", Value = "Rupam III Malam"},
+                                            }, "PILIH DARI RUPAM", new { id = "cbDariRupam", @class = "form-select", @style = "text-align:center" })
+                                        <span asp-validation-for="@Model.DariRupam" style="color:red"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="KeRupam"> Ke Rupam</label>
+                                    </div>
+                                    <div class="col-8">
+                                        @Html.DropDownListFor(m => m.KeRupam, new List<SelectListItem>
+                                                                                                                    {
+                                                new SelectListItem{Text="Rupam I Pagi", Value = "Rupam I Pagi"},
+                                                new SelectListItem{Text="Rupam I Siang", Value = "Rupam I Siang"},
+                                                new SelectListItem{Text="Rupam I Malam", Value = "Rupam I Malam"},
+                                                new SelectListItem{Text="Rupam II Pagi", Value = "Rupam II Pagi"},
+                                                new SelectListItem{Text="Rupam II Siang", Value = "Rupam II Siang"},
+                                                new SelectListItem{Text="Rupam II Malam", Value = "Rupam II Malam"},
+                                                new SelectListItem{Text="Rupam III Pagi", Value = "Rupam III Pagi"},
+                                                new SelectListItem{Text="Rupam III Siang", Value = "Rupam III Siang"},
+                                                new SelectListItem{Text="Rupam III Malam", Value = "Rupam III Malam"},
+                                            }, "PILIH KE RUPAM", new { id = "cbKeRupam", @class = "form-select", @style = "text-align:center" })
+                                        <span asp-validation-for="@Model.DariRupam" style="color:red"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white;font-weight:bold;" asp-for="Personil"></label>
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white; font-weight:bold;" asp-for="Hadir"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Personil" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Personil" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Hadir" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Hadir" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white;font-weight:bold;" asp-for="Tidak"></label>
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white; font-weight:bold;" asp-for="Cuti"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Sakit" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Sakit" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Izin" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Izin" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white;font-weight:bold;" asp-for="Sakit"></label>
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white; font-weight:bold;" asp-for="Izin"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Sakit" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Sakit" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Izin" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Izin" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white;font-weight:bold;" asp-for="DinasLuar"></label>
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white; font-weight:bold;" asp-for="Pengawalan"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Sakit" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="DinasLuar" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Izin" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Pengawalan" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group mb-2 row mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white;font-weight:bold;" asp-for="SidangTahanan"></label>
+                                    </div>
+                                    <div class="col-lg-4" style="text-align:center">
+                                        <label style="color:white; font-weight:bold;" asp-for="SidangNarapidana"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="SidangTahanan" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="SidangTahanan" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="form-group">
+                                            <input asp-for="Izin" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="SidangNarapidana" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;">RS</label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="RSUD" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="RSUD" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-4">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Asimilasi"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Asimilasi" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Asimilasi" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="BonKejaksaan"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="BonKejaksaan" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="BonKejaksaan" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="BonPolisi"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="BonPolisi" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="BonPolisi" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="BonKerja"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="BonKerja" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="BonKerja" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="BonLain"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="BonLain" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="BonLain" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Tanggal"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input type="date" asp-for="Tanggal" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Tanggal" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                @if (Model.Id != 0)
+                                {
+                                    <div class="row mt-3">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;">Gambar</label>
+                                        </div>
+                                        <div class="col-lg-8 text-center">
+                                            <div class="form-group" style="text-align:left">
+                                                <img src="@Model.ImgUrl" width="40%"
+                                                     style="border-radius:1px; border:1px; color:white;" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="ImgUrl"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input type="file" name="file" asp-for="ImgUrl" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="ImgUrl" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2">
+
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="col-12">
+                                            @if (Model.Id != 0 && User.IsInRole(StaticData.Role_Petugas))
+                                            {
+                                                <partial name="_EditAndBackToListButton" model="@Model.Id" />
+                                            }
+                                            else if (!User.IsInRole(StaticData.Role_Petugas))
+                                            {
+                                                <div class="col-12">
+                                                    <a asp-action="Index" style="border-radius:20px; background-color:white; color:#000080" class="btn form-control"> Back to List</a>
+                                                </div>
+                                            }
+                                            else if(Model.Id == 0 && (User.IsInRole(StaticData.Role_Petugas)))
+                                            {
+                                                <partial name="_CreateAndBackToListButton" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

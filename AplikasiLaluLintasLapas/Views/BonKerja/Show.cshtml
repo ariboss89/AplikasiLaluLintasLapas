@@ -1,0 +1,209 @@
+﻿@model AplikasiLaluLintasLapas.Models.BonKerja
+@using AplikasiLaluLintasLapas.SD
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Bon Kerja Warga Binaan";
+}
+
+<body>
+    <div style="justify-content:center" class="card shadow border-0 mt-4 p-4">
+
+        <div class="row" style="display:flex; justify-content:center">
+            <div class="col-sm-12; col-md-12; col-lg-12">
+
+                <div class="card-body p-4">
+                    <form method="post" class="row">
+
+                        <div class="row p-3 border" style="border-radius: 20px; background-color: #000080">
+
+                            @if (!Model.Id.Equals(""))
+                            {
+                                title = "Persetujuan Bon Kerja";
+                            }
+
+                            <input type="hidden" asp-for="@Model.Id" />
+
+                            <div asp-validation-summary="ModelOnly"></div>
+
+                            <div class="col-12 border-bottom">
+                                <h2 style="text-align:center;color:white">@title</h2>
+                            </div>
+
+                            <div class="col-12 pt-4">
+                                @*<div class="row">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="NamaWBP"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="NamaWBP" class="form-control" style="text-align:center" disabled />
+                                            <span asp-validation-for="NamaWBP" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="JenisKelamin"> Jenis Kelamin</label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input asp-for="JenisKelamin" class="form-control" style="text-align:center" disabled />
+                                        <span asp-validation-for="@Model.JenisKelamin" style="color:white"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Tanggal"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Tanggal" class="form-control" style="text-align:center" disabled />
+                                            <span asp-validation-for="Tanggal" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Blok"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Blok" class="form-control" style="text-align:center" disabled />
+                                            <span asp-validation-for="Blok" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Keterangan"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <textarea asp-for="Keterangan" class="form-control" style="text-align:center" disabled>
+                                        </textarea>
+                                            <span asp-validation-for="Keterangan" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>*@
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Petugas"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Petugas" class="form-control" style="text-align:center" disabled />
+                                            <span asp-validation-for="Petugas" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                @if (User.IsInRole(StaticData.Role_KARutan) || User.IsInRole(StaticData.Role_KAKPR) || User.IsInRole(StaticData.Role_KARUPAM) || User.IsInRole(StaticData.Role_KasiYantah))
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> @StaticData.Role_KARutan </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            @Html.DropDownListFor(m => m.TtdKaRutan, new List<SelectListItem>
+                                                                                                                        {
+                                                    new SelectListItem{Text="Approve", Value = "Approve"},
+                                                    new SelectListItem{Text="Disapprove", Value = "Disapprove"},
+                                                }, "PILIH AKSI", new { id = "cbProgram", @class = "form-select", @style = "text-align:center" })
+                                            <span asp-validation-for="@Model.TtdKaRutan" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (User.IsInRole(StaticData.Role_KARutan) & StaticData.TtdKaRutan == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (User.IsInRole(StaticData.Role_KAKPR) & StaticData.TtdKaKpr == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (User.IsInRole(StaticData.Role_KARUPAM) & StaticData.TtdKaRupam == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (User.IsInRole(StaticData.Role_KasiYantah) & StaticData.TtdKaKpr == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2">
+
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="col-12">
+                                            @if (Model.Id == "")
+                                            {
+                                                <partial name="_EditAndBackToListButton" model="@Model.Id" />
+                                            }
+                                            else
+                                            {
+                                                <partial name="_CreateAndBackToListButton" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

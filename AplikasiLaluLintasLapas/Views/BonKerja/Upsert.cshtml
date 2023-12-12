@@ -1,0 +1,170 @@
+﻿@model AplikasiLaluLintasLapas.Models.BonKerja
+@using AplikasiLaluLintasLapas.SD
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Bon Kerja Warga Binaan";
+}
+
+@*<body style="overflow:hidden">*@
+<body>
+    <div style="height:80vh; justify-content:center" class="card shadow border-0 mt-4 p-4">
+
+        <div class="row" style="display:flex; justify-content:center">
+            <div class="col-sm-12; col-md-12; col-lg-12">
+
+                <div class="card-body p-4">
+                    <form method="post" class="row">
+
+                        <div class="row p-3 border" style="border-radius: 20px; background-color: #000080">
+
+                            @if (!Model.Id.Equals(""))
+                            {
+                                title = "Edit Bon Kerja Warga Binaan";
+                            }
+
+                            <input type="hidden" asp-for="@Model.Id" />
+
+                            <div asp-validation-summary="ModelOnly"></div>
+
+                            <div class="col-12 border-bottom">
+                                <h2 style="text-align:center;color:white">@title</h2>
+                            </div>
+
+                            <div class="col-12 pt-4">
+                                <div class="row">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Tanggal"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Tanggal" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Tanggal" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Jumlah"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Jumlah" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Jumlah" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Petugas"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Petugas" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Petugas" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                @if (User.IsInRole(StaticData.Role_KARutan) & StaticData.TtdKaRutan == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (StaticData.TtdKaRutan == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD KA Rutan </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (StaticData.TtdKaKpr == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD KA KPR </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (StaticData.TtdKaRupam == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD KA Rupam </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (StaticData.UrlTtdKaYantah == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD Kasi Yantah </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2">
+
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="col-12">
+                                            @if (Model.Id == "")
+                                            {
+                                                <partial name="_EditAndBackToListButton" model="@Model.Id" />
+                                            }
+                                            else
+                                            {
+                                                <partial name="_CreateAndBackToListButton" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

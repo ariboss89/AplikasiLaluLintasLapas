@@ -1,0 +1,286 @@
+﻿@model AplikasiLaluLintasLapas.Models.Aplusan
+@using AplikasiLaluLintasLapas.SD
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Aplusan";
+}
+
+<body style="width:100%">
+
+    <div class="row p-2" style="border:inset; align-items:center">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4 text-center">
+            <img src="~/images/icons/ham.png" width="50%" height="100%" />
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-8 text-center mt-2" style="align-items:center">
+            <h3>Rutan Kelas 1 Tanjungpinang</h3>
+            <h3>Jl. Lembaga Pemasyarakatan No.8, Tanjungpinang Barat </h3>
+            <h3>Kota Tanjung Pinang, Kepulauan Riau</h3>
+        </div>
+    </div>
+
+    <div class="row p-2" style="border:inset">
+        <div class="row">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="JumlahWBP"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled asp-for="JumlahWBP" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="JumlahWBP" style="color:red"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="Tahanan"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled asp-for="Tahanan" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="Tahanan" style="color:red"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8" style="display:flex; flex-direction:row; justify-content:space-between; text-align:center">
+                <div class="form-group col-md-6 col-sm-6 col-6" style="margin-right:2px">
+                    <label style="color:black; font-weight:bold;" asp-for="TahananPria"></label>
+                    <input disabled asp-for="TahananPria" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-md-6 col-sm-6 col-6" style="margin-left:2px">
+                    <label style="color:black; font-weight:bold;" asp-for="TahananWanita"></label>
+                    <input disabled asp-for="TahananWanita" class="form-control" style="text-align:center" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+                <label style="color:black; font-weight:bold;" asp-for="Narapidana"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled asp-for="Narapidana" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="Narapidana" style="color:red"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8" style="display:flex; flex-direction:row; justify-content:space-between; text-align:center">
+                <div class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="margin-right:2px">
+                    <label style="color:black; font-weight:bold;" asp-for="NarapidanaPria"></label>
+                    <input disabled asp-for="NarapidanaPria" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-sm-6 col-6" style="margin-left:2px">
+                    <label style="color:black; font-weight:bold;" asp-for="NarapidanaWanita"></label>
+                    <input disabled asp-for="NarapidanaWanita" class="form-control" style="text-align:center" />
+                </div>
+            </div>
+        </div>
+
+        @*dari rupam*@
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="DariRupam"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled asp-for="DariRupam" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="DariRupam" style="color:red"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="KeRupam"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled asp-for="KeRupam" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="KeRupam" style="color:red"></span>
+                </div>
+            </div>
+        </div>
+
+        @*jumlah personil*@
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="Personil"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled asp-for="Personil" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="Personil" style="color:red"></span>
+                </div>
+            </div>
+        </div>
+
+        @*test*@
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8 col-sm-12 col-md-12" style="display:flex; flex-direction:row; justify-content:space-between; text-align:center">
+                <div class="form-group col-lg-4" style="margin-right:4px;">
+                    <label style="color:black; font-weight:bold;" asp-for="Hadir"></label>
+                    <input disabled asp-for="Hadir" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-3">
+                    <label style="color:black; font-weight:bold;" asp-for="Tidak"></label>
+                    <input disabled asp-for="Tidak" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-4" style="margin-left:4px">
+                    <label style="color:black; font-weight:bold;" asp-for="Cuti"></label>
+                    <input disabled asp-for="Cuti" class="form-control" style="text-align:center" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8 col-sm-12 col-md-12" style="display:flex; flex-direction:row; justify-content:space-between; text-align:center">
+                <div class="form-group col-lg-4" style="margin-right:4px;">
+                    <label style="color:black; font-weight:bold;" asp-for="Sakit"></label>
+                    <input disabled asp-for="Sakit" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-3">
+                    <label style="color:black; font-weight:bold;" asp-for="Izin"></label>
+                    <input disabled asp-for="Izin" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-4" style="margin-left:4px">
+                    <label style="color:black; font-weight:bold;" asp-for="DinasLuar"></label>
+                    <input disabled asp-for="DinasLuar" class="form-control" style="text-align:center" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8 col-sm-12 col-md-12" style="display:flex; flex-direction:row; justify-content:space-between; text-align:center">
+                <div class="form-group col-lg-4" style="margin-right:4px;">
+                    <label style="color:black; font-weight:bold;" asp-for="Pengawalan"></label>
+                    <input disabled asp-for="Pengawalan" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-3">
+                    <label style="color:black; font-weight:bold;" asp-for="SidangTahanan"></label>
+                    <input disabled asp-for="SidangTahanan" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-4" style="margin-left:4px">
+                    <label style="color:black; font-weight:bold;" asp-for="SidangNarapidana"></label>
+                    <input disabled asp-for="SidangNarapidana" class="form-control" style="text-align:center" />
+                </div>
+            </div>
+        </div>
+
+        @*rs*@
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8 col-sm-12 col-md-12" style="display:flex; flex-direction:row; justify-content:space-between; text-align:center">
+                <div class="form-group col-lg-4" style="margin-right:4px;">
+                    <label style="color:black; font-weight:bold;" asp-for="RSUD"></label>
+                    <input disabled asp-for="RSUD" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-3">
+                    <label style="color:black; font-weight:bold;" asp-for="Asimilasi"></label>
+                    <input disabled asp-for="Asimilasi" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-4" style="margin-left:4px">
+                    <label style="color:black; font-weight:bold;" asp-for="BonKejaksaan"></label>
+                    <input disabled asp-for="BonKejaksaan" class="form-control" style="text-align:center" />
+                </div>
+            </div>
+        </div>
+
+        @*bon polisi*@
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8 col-sm-12 col-md-12" style="display:flex; flex-direction:row; justify-content:space-between; text-align:center">
+                <div class="form-group col-lg-4" style="margin-right:4px;">
+                    <label style="color:black; font-weight:bold;" asp-for="BonPolisi"></label>
+                    <input disabled asp-for="BonPolisi" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-3">
+                    <label style="color:black; font-weight:bold;" asp-for="BonKerja"></label>
+                    <input disabled asp-for="BonKerja" class="form-control" style="text-align:center" />
+                </div>
+                <div class="form-group col-lg-4" style="margin-left:4px">
+                    <label style="color:black; font-weight:bold;" asp-for="BonLain"></label>
+                    <input disabled asp-for="BonLain" class="form-control" style="text-align:center" />
+                </div>
+            </div>
+        </div>
+
+        @*tanggal*@
+       
+        <div class="row mt-4">
+            <div class="col-lg-4 form-group row">
+
+            </div>
+            <div class="col-lg-8 col-sm-12 col-md-12" style="display:flex; flex-direction:row; align-items:center; justify-content:space-between;align-content:center; text-align:center;">
+                <div class="form-group col-lg-4" style="margin-right:4px;">
+                    <input disabled asp-for="Tanggal" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="Tanggal" style="color:red"></span>
+                </div>
+                <div class="form-group col-lg-8" style="margin-left:4px">
+                    <img src="@Model.ImgUrl" class="col-lg-4 col-md-4 col-sm-4 col-4"
+                         style="border-radius:1px; border:1px; color:white;" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="divCetak">
+        <button class="btn btn-primary form-control mt-2" onclick="Print()"><i class="bi bi-printer" style="margin-right:10px"></i>CETAK</button>
+
+    </div>
+
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <Script>
+
+       function Print() {
+
+            document.getElementById('divCetak').hidden = true;
+
+            document.getElementById('navMenu').hidden = true;
+
+            window.print();
+
+            document.getElementById('divCetak').hidden = false;
+
+            document.getElementById('navMenu').hidden = false;
+
+        }
+
+    </Script>
+
+}

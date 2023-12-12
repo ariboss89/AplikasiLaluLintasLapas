@@ -1,0 +1,208 @@
+﻿@model AplikasiLaluLintasLapas.Models.DtBonKerja
+@using AplikasiLaluLintasLapas.SD
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Bon Kerja Warga Binaan";
+}
+
+@*<body style="overflow:hidden">*@
+<body>
+    <div style="justify-content:center" class="card shadow border-0 mt-4 p-4">
+
+        <div class="row" style="display:flex; justify-content:center">
+            <div class="col-sm-12; col-md-12; col-lg-12">
+
+                <div class="card-body p-4">
+                    <form method="post" class="row">
+
+                        <div class="row p-3 border" style="border-radius: 20px; background-color: #000080">
+
+                            @if (Model.IdDetail != 0)
+                            {
+                                title = "Edit Bon Kerja Warga Binaan";
+                            }
+
+                            <input type="hidden" asp-for="@Model.IdDetail" />
+
+                            <div asp-validation-summary="ModelOnly"></div>
+
+                            <div class="col-12 border-bottom">
+                                <h2 style="text-align:center;color:white">@title</h2>
+                            </div>
+
+                            <div class="col-12 pt-4">
+                                <div class="row">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="NamaWBP"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="NamaWBP" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="NamaWBP" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="JenisKelamin"> Jenis Kelamin</label>
+                                    </div>
+                                    <div class="col-lg-8 col-12">
+                                        @Html.DropDownListFor(m => m.JenisKelamin, new List<SelectListItem>
+                                                                                                                    {
+                                                new SelectListItem{Text="Laki-Laki", Value = "Laki-Laki"},
+                                                new SelectListItem{Text="Perempuan", Value = "Perempuan"},
+                                            }, "PILIH JENIS KELAMIN", new { id = "cbProgram", @class = "form-select", @style = "text-align:center" })
+                                        <span asp-validation-for="@Model.JenisKelamin" style="color:white"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Blok"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Blok" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Blok" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="JenisBonKerja"> Jenis Bon Kerja</label>
+                                    </div>
+                                    <div class="col-lg-8 col-12">
+                                        @Html.DropDownListFor(m => m.JenisBonKerja, new List<SelectListItem>
+                                                                                                                    {
+                                                new SelectListItem{Text="Asimilasi", Value = "Asimilasi"},
+                                                new SelectListItem{Text="Bon Kejaksaan", Value = "Bon Kejaksaan"},
+                                                new SelectListItem{Text="Bon Polisi", Value = "Bon Polisi"},
+                                                new SelectListItem{Text="Bon Kerja", Value = "Bon Kerja"},
+                                                new SelectListItem{Text="Bon Lain-Lain", Value = "Bon Lain-Lain"},
+                                            }, "PILIH JENIS BONKERJA", new { id = "cbBonKerja", @class = "form-select", @style = "text-align:center" })
+                                        <span asp-validation-for="@Model.JenisKelamin" style="color:white"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Keterangan"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <textarea asp-for="Keterangan" class="form-control" style="text-align:center">
+                                        </textarea>
+                                            <span asp-validation-for="Keterangan" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                @if (User.IsInRole(StaticData.Role_KARutan) & StaticData.TtdKaRutan == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (StaticData.TtdKaRutan == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD KA Rutan </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (StaticData.TtdKaKpr == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD KA KPR </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (StaticData.TtdKaRupam == "Approve")
+                                {
+                                    <div class="row mt-2">
+                                        <div class="col-lg-4 form-group row mb-2 mt-2">
+                                            <label style="color:white; font-weight:bold;"> Gambar TTD KA Rupam </label>
+                                        </div>
+
+                                        <div class="col-8">
+                                            <img style="border-radius:10px" ; height="100%" ; width="100%" ; src="~/images/signature/KARutan.png" />
+                                        </div>
+                                    </div>
+                                }
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2">
+
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="col-12">
+                                            @if (Model.IdDetail != 0)
+                                            {
+                                                <partial name="_EditAndBackToListButton" model="@Model.IdDetail" />
+                                            }
+                                            else
+                                            {
+                                                <partial name="_CreateAndBackToListButton" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="p-4 border rounded" style="text-align:center; background-color:white; color:black">
+            <table id="tblData2" class="table table-striped table-bordered" style=" width:100%; padding-top:10px; background-color:white">
+                <thead class="thead-light">
+                    <tr style="background-color:navy; color: white">
+                        <th class="text-center">Nama WBP</th>
+                        <th class="text-center">Jenis Kelamin</th>
+                        <th class="text-center">Blok</th>
+                        <th class="text-center">Keterangan</th>
+                        <th class="text-center">Action</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+        <div>
+            <button onclick="SaveAll()" class="btn btn-primary form-control mt-2"> Selesai </button>
+        </div>
+
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/DtBonKerja.js"></script>
+}

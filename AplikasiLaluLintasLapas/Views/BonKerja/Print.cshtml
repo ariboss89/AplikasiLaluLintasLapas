@@ -1,0 +1,201 @@
+﻿@model AplikasiLaluLintasLapas.ViewModels.BonKerjaVM
+@using AplikasiLaluLintasLapas.SD
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Aplusan";
+}
+
+<body>
+
+    <div class="row p-2" style="border:inset; align-items:center">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-4 text-center">
+            <img src="~/images/icons/ham.png" width="50%" height="100%" />
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-8 col-8 text-center mt-2" style="align-content:center">
+            <h3>Rutan Kelas 1 Tanjungpinang</h3>
+            <h3>Jl. Lembaga Pemasyarakatan No.8, Tanjungpinang Barat </h3>
+            <h3>Kota Tanjung Pinang, Kepulauan Riau</h3>
+        </div>
+    </div>
+
+    <div class="row p-2" style="border:inset">
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="BonKerja.Id"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled id="txtId" asp-for="BonKerja.Id" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="BonKerja.Id" style="color:white"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="BonKerja.Tanggal"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled id="txtTanggal" asp-for="BonKerja.Tanggal" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="BonKerja.Tanggal" style="color:white"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="BonKerja.Jumlah"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled id="txtJumlah" asp-for="BonKerja.Jumlah" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="BonKerja.Jumlah" style="color:white"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-lg-4 form-group row mb-2 mt-2">
+                <label style="color:black; font-weight:bold;" asp-for="BonKerja.Petugas"></label>
+            </div>
+            <div class="col-lg-8">
+                <div class="form-group">
+                    <input disabled id="txtPetugas" asp-for="BonKerja.Petugas" class="form-control" style="text-align:center" />
+                    <span asp-validation-for="BonKerja.Petugas" style="color:white"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row p-2" style="border:inset; align-items:center">
+        <div class="p-4" style="text-align:center; background-color:white; color:black">
+            <table id="tblData" class="table table-striped table-bordered" style=" width:100%; padding-top:10px; background-color:white">
+                <thead class="thead-dark">
+                    <tr style="background-color:navy; color: white">
+                        <th>Nama WBP</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Blok</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var obj in Model.ListDetail)
+                    {
+                        <tr>
+                            <td>
+                                @obj.NamaWBP
+                            </td>
+                            <td>
+                                @obj.JenisKelamin
+                            </td>
+                            <td>
+                                @obj.Blok
+                            </td>
+                            <td>
+                                @obj.Keterangan
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row p-2 mt-4" style="align-items:center; align-content:center">
+
+        <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+            <p style="font-weight:bold; margin-right:30px">MENGETAHUI</p>
+        </div>
+
+    </div>
+
+        <div class="row p-2" style="border:inset; align-items:center">
+            <div style="display:flex; flex-direction:row; justify-content:space-between; align-content:center; align-items:center">
+                <div class="col-3 text-center">
+                    <p style="font-weight:bold">TTD KA RUTAN</p>
+                    @if (Model.BonKerja.UrlTtdKaRutan != "")
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaRutan" />
+                    }
+                    else
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaRutan" />
+                    }
+                </div>
+                <div class="col-3 text-center">
+                    <p style="font-weight:bold">TTD KA KPR</p>
+                    @if (Model.BonKerja.UrlTtdKaKpr != "")
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaKpr" />
+                    }
+                    else
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaKpr" />
+                    }
+                </div>
+
+                <div class="col-3 text-center">
+                    <p style="font-weight:bold">TTD KASI YANTAH</p>
+
+                    @if (Model.BonKerja.UrlTtdKasiYantah != "")
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKasiYantah" />
+                    }
+                    else
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKasiYantah" />
+                    }
+                </div>
+
+                <div class="col-3 text-center">
+                    <p style="font-weight:bold">TTD KA RUPAM</p>
+                    @if (Model.BonKerja.UrlTtdKaRupam != "")
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaRupam" />
+                    }
+                    else
+                    {
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaRupam" />
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4" id="divCetak">
+            <button class="btn btn-primary form-control mt-2" onclick="Print()"><i class="bi bi-printer" style="margin-right:10px"></i>CETAK</button>
+
+        </div>
+
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+    <Script>function Print() {
+
+            document.getElementById('divCetak').hidden = true;
+
+            document.getElementById('navMenu').hidden = true;
+
+            window.print();
+
+            document.getElementById('divCetak').hidden = false;
+
+            document.getElementById('navMenu').hidden = false;
+
+        }</Script>
+
+}
