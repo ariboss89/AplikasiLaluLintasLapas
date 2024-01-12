@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AplikasiLaluLintasLapas.Data;
 using AplikasiLaluLintasLapas.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +5,7 @@ using AplikasiLaluLintasLapas.SD;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 using AplikasiLaluLintasLapas.ViewModels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace AplikasiLaluLintasLapas.Controllers
 {
@@ -94,6 +91,9 @@ namespace AplikasiLaluLintasLapas.Controllers
                 bonKerja.UrlTtdKaRupam = data.UrlTtdKaRupam;
                 bonKerja.UrlTtdKaRutan = data.UrlTtdKaRutan;
                 bonKerja.UrlTtdKasiYantah = data.UrlTtdKasiYantah;
+
+                bonKerja.NamaKaRupam = data.NamaKaRupam;
+                bonKerja.NipKaRupam = data.NipKaRupam;
 
                 var dataUser = _db.ApplicationUsers.Where(x => x.Id == userId).FirstOrDefault();
 
@@ -197,6 +197,8 @@ namespace AplikasiLaluLintasLapas.Controllers
                     bonKerja.Jumlah = dataBonKerja.Jumlah;
                     bonKerja.Petugas = dataBonKerja.Petugas;
                     bonKerja.Tanggal = dataBonKerja.Tanggal;
+                    bonKerja.NipKaRupam = dataBonKerja.NipKaRupam;
+                    bonKerja.NamaKaRupam = dataBonKerja.NamaKaRupam;
 
                     bonKerja.TtdKaKpr = dataBonKerja.TtdKaKpr;
                     bonKerja.TtdKaRupam = dataBonKerja.TtdKaRupam;
@@ -207,6 +209,9 @@ namespace AplikasiLaluLintasLapas.Controllers
                     bonKerja.UrlTtdKaRupam = dataBonKerja.UrlTtdKaRupam;
                     bonKerja.UrlTtdKaRutan = dataBonKerja.UrlTtdKaRutan;
                     bonKerja.UrlTtdKasiYantah = dataBonKerja.UrlTtdKasiYantah;
+
+                    bonKerja.NamaKaRupam = dataBonKerja.NamaKaRupam;
+                    bonKerja.NipKaRupam = dataBonKerja.NipKaRupam;
 
                     StaticData.IdBonKerja = Id;
                     StaticData.TtdKaKpr = bonKerja.TtdKaKpr;
@@ -324,7 +329,7 @@ namespace AplikasiLaluLintasLapas.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            List<BonKerja> bonKerjaList = _db.BonKerjas.ToList();
+            List<BonKerja> bonKerjaList = _db.BonKerjas.OrderByDescending(x=> x.Id).ToList();
 
             return Json(new { data = bonKerjaList });
         }
@@ -361,7 +366,7 @@ namespace AplikasiLaluLintasLapas.Controllers
 
        // [HttpPost]
         //[ValidateAntiForgeryToken]
-        public void SaveAll()
+        public void SaveAll(string nip, string nama, string petugas)
         {
             BonKerja bonKerja = new BonKerja();
             Config config = new Config();
@@ -376,16 +381,19 @@ namespace AplikasiLaluLintasLapas.Controllers
 
             var user = _userManager.GetUserName(User);
 
-            if (checkData != null || checkData.Count !=0)
+            if (checkData != null && checkData.Count !=0)
             {
                 bonKerja.Id = idBonKerja;
                 bonKerja.Jumlah = checkData.Count;
                 bonKerja.Tanggal = DateTime.Now;
-                bonKerja.Petugas = user;
                 bonKerja.TtdKaKpr = "Disapprove";
                 bonKerja.TtdKaRupam = "Disapprove";
                 bonKerja.TtdKaRutan = "Disapprove";
                 bonKerja.TtdKaYantah = "Disapprove";
+
+                bonKerja.Petugas = petugas;
+                bonKerja.NipKaRupam = nip;
+                bonKerja.NamaKaRupam = nama;
 
                 bonKerja.UrlTtdKaKpr = "";
                 bonKerja.UrlTtdKaRupam = "";
@@ -394,11 +402,10 @@ namespace AplikasiLaluLintasLapas.Controllers
 
                 config.config_key = "bonkerja";
                 config.config_value = id++;
-                config.Id = data.Id; 
+                config.Id = data.Id;
 
                 _db.Configs.Update(config);
                 _db.BonKerjas.Add(bonKerja);
-
 
                 _db.SaveChanges();
 
@@ -408,7 +415,7 @@ namespace AplikasiLaluLintasLapas.Controllers
 
             else
             {
-                TempData["Error"] = "Bon Kerja Gagal di Tambahkan";
+                TempData["Error"] = "Bon Kerja Gagal di Tambahkan Karna Data Belum Tersedia";
             }
         }
 
@@ -468,7 +475,8 @@ namespace AplikasiLaluLintasLapas.Controllers
             BonKerjaVM bonKerja = new BonKerjaVM()
             {
                 BonKerja = new BonKerja(),
-                ListDetail = new List<DtBonKerja>()
+                ListDetail = new List<DtBonKerja>(),
+                Pejabat = new Pejabat()
 
             };
 
@@ -478,6 +486,8 @@ namespace AplikasiLaluLintasLapas.Controllers
             List<DtBonKerja> listDetail = new List<DtBonKerja>();
 
             var user = _userManager.GetUserName(User);
+
+            var dataUser = _db.ApplicationUsers.ToList();
 
             if (checkData != null)
             {
@@ -490,15 +500,43 @@ namespace AplikasiLaluLintasLapas.Controllers
                 bonKerja.BonKerja.TtdKaRutan = data.TtdKaRutan;
                 bonKerja.BonKerja.TtdKaYantah = data.TtdKaYantah;
 
+                bonKerja.BonKerja.NipKaRupam = data.NipKaRupam;
+                bonKerja.BonKerja.NamaKaRupam = data.NamaKaRupam;
+
                 bonKerja.BonKerja.UrlTtdKaKpr = data.UrlTtdKaKpr;
                 bonKerja.BonKerja.UrlTtdKaRupam = data.UrlTtdKaRupam;
                 bonKerja.BonKerja.UrlTtdKaRutan = data.UrlTtdKaRutan;
                 bonKerja.BonKerja.UrlTtdKasiYantah = data.UrlTtdKasiYantah;
 
+                if(dataUser.Count != 0)
+                {
+                    foreach(var a in dataUser)
+                    {
+                        if(a.Email == "karutan@gmail.com" && a.UrlTTd != "")
+                        {
+                            bonKerja.Pejabat.NipKaRutan = a.Nip;
+                            bonKerja.Pejabat.NamaKaRutan = a.Nama;
+                        }
+
+                        if (a.Email == "kasiyantah@gmail.com" && a.UrlTTd != "")
+                        {
+                            bonKerja.Pejabat.NipKasiYantah = a.Nip;
+                            bonKerja.Pejabat.NamaKasiYantah = a.Nama;
+                        }
+
+                        if (a.Email == "kakpr@gmail.com" && a.UrlTTd != "")
+                        {
+                            bonKerja.Pejabat.NipKaKpr = a.Nip;
+                            bonKerja.Pejabat.NamaKaKpr = a.Nama;
+                        }
+                    }
+                }
+
                 bonKerja = new BonKerjaVM
                 {
                     BonKerja = bonKerja.BonKerja,
-                    ListDetail = checkData
+                    ListDetail = checkData,
+                    Pejabat = bonKerja.Pejabat
                 };
 
             }

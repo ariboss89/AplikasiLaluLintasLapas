@@ -63,19 +63,56 @@ function Delete(url) {
     });
 }
 
+function trimfield(str) {
+    return str.replace(/^\s+|\s+$/g, '');
+}
 
 function SaveAll() {
-    
+
     var table = document.getElementById("tblData2");
+    var nip = document.getElementById("txtNipKaRupam").value;
+    var nama = document.getElementById("txtNamaKaRupam").value;
+    var list = document.getElementById("txtListPetugas").value;
     var rowCount = table.rows.length;
 
     console.log(rowCount, "rr");
+    console.log(nip, "apaciej");
 
-    if (rowCount != 1) {
+    console.log(list, "List");
+
+    if (trimfield(nip) == "") {
+        swal({
+            title: "Data Nip Ka Rupam Masih Kosong",
+            //text: "Data Penanggung Jawab Masih Kosong",
+            icon: "warning",
+            dangerMode: true
+        })
+    } else if (trimfield(nama) == "") {
+        swal({
+            title: "Data Nama Ka Rupam Masih Kosong",
+            //text: "Data Penanggung Jawab Masih Kosong",
+            icon: "warning",
+            dangerMode: true
+        })
+    } else if (trimfield(list)=='') {
+        swal({
+            title: "Data Keterangan Petugas Masih Kosong",
+            //text: "Data Penanggung Jawab Masih Kosong",
+            icon: "warning",
+            dangerMode: true
+        })
+    }
+    else if (rowCount != 1) {
+
+        //const dataKu = list.value.replace(/(?<=(?:^|[.?!])\W*)[a-z]/g);
+
+        const urlx = "/BonKerja/SaveAll?nip=" + nip + "&nama=" + nama + "&petugas=" + dataKu;
+
+        console.log(urlx, "URL");
 
         $.ajax({
             //type: "POST",
-            url: "/BonKerja/SaveAll",
+            url: urlx,
             success: function (data) {
                 var data2 = JSON.stringify(data);
 
@@ -99,5 +136,21 @@ function SaveAll() {
             dangerMode: true
         })
 
+    }
+}
+
+function DataPetugas() {
+    var x = document.getElementById("divPetugas");
+    var y = document.getElementById("btnSelesai");
+    var z = document.getElementById("btnCancel");
+
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+        y.style.display = "none"
+        z.style.display = "flex"
+    } else {
+        x.style.display = "none";
+        y.style.display = "flex"
+        z.style.display = "none"
     }
 }

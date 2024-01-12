@@ -79,7 +79,7 @@ namespace AplikasiLaluLintasLapas.Models
         public int BonLain { get; set; }
         [Required]
         public DateTime Tanggal { get; set; }
-        [Required]
+        
         [Display(Name = "Link Gambar")]
         public string ImgUrl { get; set; }
 	}

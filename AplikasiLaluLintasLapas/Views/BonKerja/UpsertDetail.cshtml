@@ -8,6 +8,7 @@
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
+
     var title = "Tambah Bon Kerja Warga Binaan";
 }
 
@@ -197,7 +198,72 @@
         </div>
 
         <div>
-            <button onclick="SaveAll()" class="btn btn-primary form-control mt-2"> Selesai </button>
+            <button id="btnSelesai" onclick="DataPetugas()" style="display:flex; justify-content:center" class="btn btn-primary form-control mt-2"> Selesai </button>
+        </div>
+
+        <div id="divPetugas" class="row" style="display:none; justify-content:center">
+            <div class="col-sm-12; col-md-12; col-lg-12">
+
+                <div class="card-body p-4">
+
+                    <div class="row p-3 border" style="border-radius: 20px; background-color: #000080">
+
+                        <div asp-validation-summary="ModelOnly"></div>
+
+                        <div class="col-12 border-bottom">
+                            <h2 style="text-align:center;color:white">Data Penanggung Jawab</h2>
+                        </div>
+
+                        <div class="col-12 pt-4">
+                            <div class="row">
+                                <div class="col-lg-4 form-group row mb-2 mt-2">
+                                    <label style="color:white; font-weight:bold;"> NIP KA RUPAM</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="form-group">
+                                        <input id="txtNipKaRupam" class="form-control" style="text-align:center" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-lg-4 form-group row mb-2 mt-2">
+                                    <label style="color:white; font-weight:bold;"> Nama KA RUPAM</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="form-group">
+                                        <input id="txtNamaKaRupam" class="form-control" style="text-align:center" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-lg-4 form-group row mb-2 mt-2">
+                                    <label style="color:white; font-weight:bold;">List Petugas</label>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="form-group">
+                                        <textarea rows="6" id="txtListPetugas" class="form-control" style="text-align:left">
+                                        </textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <button onclick="SaveAll()" class="btn btn-primary form-control mt-2"> Simpan Data Keseluruhan </button>
+
+                <button style="display:flex; justify-content:center" id="btnCancel" onclick="DataPetugas()" class="btn btn-danger form-control mt-2"> Cancel </button>
+
+            </div>
+
         </div>
 
 </body>

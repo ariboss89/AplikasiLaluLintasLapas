@@ -31,6 +31,12 @@ namespace AplikasiLaluLintasLapas.Models
         public string UrlTtdKaKpr { get; set; }
         [Display(Name = "TTD Kepala Rupam")]
         public string UrlTtdKaRupam { get; set; }
+        [Required]
+        [Display(Name = "NIP Kepala Rupam")]
+        public string NipKaRupam { get; set; }
+        [Required]
+        [Display(Name = "Nama Kepala Rupam")]
+        public string NamaKaRupam { get; set; }     
     }
 }
 

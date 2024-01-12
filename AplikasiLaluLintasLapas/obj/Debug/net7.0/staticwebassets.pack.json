@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/images/aplusan/0b72b9ce-f7f0-4b5f-a1cb-ced3a94ab048.png"
     },
     {
+      "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/26f9b283-1295-4d65-9e8b-c16f5cceddd5.png",
+      "PackagePath": "staticwebassets/images/aplusan/26f9b283-1295-4d65-9e8b-c16f5cceddd5.png"
+    },
+    {
       "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/3dd4e3f5-87fd-40a8-9e24-6609cbc93b93.png",
       "PackagePath": "staticwebassets/images/aplusan/3dd4e3f5-87fd-40a8-9e24-6609cbc93b93.png"
     },
@@ -45,12 +49,20 @@
       "PackagePath": "staticwebassets/images/aplusan/84b89171-c4f3-4d0c-b926-0d75c5fb12a0.jpg"
     },
     {
+      "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/99038df2-29c7-440d-a50a-fe7b5963f93c.mp4",
+      "PackagePath": "staticwebassets/images/aplusan/99038df2-29c7-440d-a50a-fe7b5963f93c.mp4"
+    },
+    {
       "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/b961a9f1-3def-4a58-95f2-20ce267807c8.png",
       "PackagePath": "staticwebassets/images/aplusan/b961a9f1-3def-4a58-95f2-20ce267807c8.png"
     },
     {
       "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/c4e3980a-4753-458b-ae05-6874567702c2.png",
       "PackagePath": "staticwebassets/images/aplusan/c4e3980a-4753-458b-ae05-6874567702c2.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/dde8a24d-ecd7-4a36-ac05-a1d72052edd0.png",
+      "PackagePath": "staticwebassets/images/aplusan/dde8a24d-ecd7-4a36-ac05-a1d72052edd0.png"
     },
     {
       "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/ec249c7b-03e5-4731-8665-e6982779b0c0.png",
@@ -95,6 +107,10 @@
     {
       "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/2a6755bb-d112-4e20-b3cb-2359985930f0.png",
       "PackagePath": "staticwebassets/images/signature/2a6755bb-d112-4e20-b3cb-2359985930f0.png"
+    },
+    {
+      "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/3cc9393f-f41e-481b-a633-9f51932a44bd.png",
+      "PackagePath": "staticwebassets/images/signature/3cc9393f-f41e-481b-a633-9f51932a44bd.png"
     },
     {
       "Id": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/92304b10-a7a3-4838-aac3-6b5b54bff264.mov",

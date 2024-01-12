@@ -10,6 +10,8 @@ namespace AplikasiLaluLintasLapas.ViewModels
 		public DtBonKerja DtBonKerja { get; set; }
 
 		public List<DtBonKerja> ListDetail { get; set; }
+
+		public Pejabat Pejabat { get; set; }
 	}
 }
 

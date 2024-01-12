@@ -63,15 +63,28 @@
 
                                 <div class="row mt-2">
                                     <div class="col-lg-4 form-group row mb-2 mt-2">
-                                        <label style="color:white; font-weight:bold;" asp-for="Jumlah"></label>
+                                        <label style="color:white; font-weight:bold;" asp-for="NipKaRupam"></label>
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="form-group">
-                                            <input id="txtJumlah" asp-for="Jumlah" class="form-control" style="text-align:center" />
-                                            <span asp-validation-for="Jumlah" style="color:white"></span>
+                                            <input id="txtJumlah" asp-for="NipKaRupam" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="NipKaRupam" style="color:white"></span>
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="NamaKaRupam"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input id="txtJumlah" asp-for="NamaKaRupam" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="NamaKaRupam" style="color:white"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
 
                                 <div class="row mt-2">
                                     <div class="col-lg-4 form-group row mb-2 mt-2">
@@ -79,7 +92,8 @@
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="form-group">
-                                            <input id="txtPetugas" asp-for="Petugas" class="form-control" style="text-align:center" />
+                                            <textarea rows="6" id="txtListPetugas" asp-for="Petugas" class="form-control" style="text-align:left; clear:both">
+                                            </textarea>
                                             <span asp-validation-for="Petugas" style="color:white"></span>
                                         </div>
                                     </div>

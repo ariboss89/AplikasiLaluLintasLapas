@@ -91,8 +91,6 @@ function GetData() {
             document.getElementById("txtKeRupam").innerHTML = aplusan['data']['keRupam'];
 
 
-            console.log(data);
-
         },
         error: function (data) {
 

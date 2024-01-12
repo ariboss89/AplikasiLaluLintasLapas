@@ -32,7 +32,7 @@ namespace AplikasiLaluLintasLapas.Controllers
             //{
             string wwwWebRootPath = _webHostEnvironment.WebRootPath;
 
-            if (file != null)
+            if (file != null && aplusan.Id == 0)
             {
                 string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
                 string productPath = Path.Combine(wwwWebRootPath, @"images/aplusan");
@@ -48,6 +48,32 @@ namespace AplikasiLaluLintasLapas.Controllers
 
                 _db.Aplusans.Add(aplusan);
                 _db.SaveChanges();
+            }
+            else if(file != null && aplusan.Id != 0)
+            {
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                string productPath = Path.Combine(wwwWebRootPath, @"images/aplusan");
+
+                using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                {
+                    file.CopyTo(fileStream);
+                }
+
+                aplusan.ImgUrl = @"/images/aplusan/" + fileName;
+
+                TempData["Success"] = "Aplusan berhasil di ubah";
+
+                _db.Aplusans.Update(aplusan);
+                _db.SaveChanges();
+            }
+            else if(file == null && aplusan.Id != 0)
+            {
+               var data = _db.Aplusans.Where(x => x.Id == aplusan.Id).FirstOrDefault();
+
+                aplusan.ImgUrl = data.ImgUrl;
+                _db.Aplusans.Update(aplusan);
+                _db.SaveChanges();
+
             }
             
             return RedirectToAction("Index");

@@ -130,6 +130,14 @@ namespace AplikasiLaluLintasLapas.Migrations
                     b.Property<int>("Jumlah")
                         .HasColumnType("int");
 
+                    b.Property<string>("NamaKaRupam")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NipKaRupam")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Petugas")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -446,6 +454,10 @@ namespace AplikasiLaluLintasLapas.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nama")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nip")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

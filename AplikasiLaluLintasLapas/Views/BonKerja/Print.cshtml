@@ -123,62 +123,100 @@
 
     </div>
 
-        <div class="row p-2" style="border:inset; align-items:center">
-            <div style="display:flex; flex-direction:row; justify-content:space-between; align-content:center; align-items:center">
-                <div class="col-3 text-center">
-                    <p style="font-weight:bold">TTD KA RUTAN</p>
-                    @if (Model.BonKerja.UrlTtdKaRutan != "")
-                    {
+    <div class="row p-2" style="border:inset; align-items:center">
+        <div style="display:flex; flex-direction:row; justify-content:space-between; align-content:center; align-items:center">
+            <div class="col-3 text-center">
+                <p style="font-weight:bold">TTD KA RUTAN</p>
+                @if (Model.BonKerja.UrlTtdKaRutan != "")
+                {
+                    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center">
                         <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaRutan" />
-                    }
-                    else
-                    {
-                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaRutan" />
-                    }
-                </div>
-                <div class="col-3 text-center">
-                    <p style="font-weight:bold">TTD KA KPR</p>
-                    @if (Model.BonKerja.UrlTtdKaKpr != "")
-                    {
-                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaKpr" />
-                    }
-                    else
-                    {
-                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaKpr" />
-                    }
-                </div>
+                        <input class="mt-2 text-center" style="border:0;font-weight:bold; color:black" asp-for="Pejabat.NamaKaRutan" />
+                        <input class="text-center" style="border:0; font-weight:bold; color:black" asp-for="Pejabat.NipKaRutan" />
+                    </div>
+                }
+                else
+                {
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
 
-                <div class="col-3 text-center">
-                    <p style="font-weight:bold">TTD KASI YANTAH</p>
-
-                    @if (Model.BonKerja.UrlTtdKasiYantah != "")
-                    {
-                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKasiYantah" />
-                    }
-                    else
-                    {
-                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKasiYantah" />
-                    }
-                </div>
-
-                <div class="col-3 text-center">
-                    <p style="font-weight:bold">TTD KA RUPAM</p>
-                    @if (Model.BonKerja.UrlTtdKaRupam != "")
-                    {
-                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaRupam" />
-                    }
-                    else
-                    {
                         <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaRupam" />
-                    }
-                </div>
+                        <label style="color:black; font-weight:bold;" asp-for="BonKerja.NamaKaRupam"></label>
+                        <label style="color:black; font-weight:bold;" asp-for="BonKerja.NipKaRupam"></label>
+
+                    </div>
+                }
+            </div>
+            <div class="col-3 text-center">
+                <p class="text-center" style="font-weight:bold">TTD KA KPR</p>
+                @if (Model.BonKerja.UrlTtdKaKpr != "")
+                {
+                    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center">
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaKpr" />
+                        <input class="mt-2 text-center" style="border:0;font-weight:bold; color:black" asp-for="Pejabat.NamaKaKpr" />
+                        <input class="text-center" style="border:0; font-weight:bold; color:black" asp-for="Pejabat.NipKaKpr" />
+                    </div>
+                }
+                else
+                {
+                    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center">
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaRupam" />
+                        <label style="color:black; font-weight:bold;"> Nama KA Kpr</label>
+                        <label style="color:black; font-weight:bold;"> Nip KA Kpr</label>
+                    </div>
+                }
+            </div>
+
+            <div class="col-3 text-center">
+                <p style="font-weight:bold">TTD KASI YANTAH</p>
+
+                @if (Model.BonKerja.UrlTtdKasiYantah != "")
+                {
+                    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center">
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKasiYantah" />
+                        <input class="mt-2 text-center" style="border:0;font-weight:bold; color:black" asp-for="Pejabat.NamaKasiYantah" />
+                        <input class="text-center" style="border:0; font-weight:bold; color:black" asp-for="Pejabat.NipKasiYantah" />
+                    </div>
+                }
+                else
+                {
+                    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center">
+
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaRupam" />
+                        <label style="color:black; font-weight:bold;" asp-for="BonKerja.NamaKaRupam"></label>
+                        <label style="color:black; font-weight:bold;" asp-for="BonKerja.NipKaRupam"></label>
+
+                    </div>
+                }
+            </div>
+
+            <div class="col-3 text-center">
+                <p style="font-weight:bold">TTD KA RUPAM</p>
+                @if (Model.BonKerja.UrlTtdKaRupam != "")
+                {
+                    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center">
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="@Model.BonKerja.UrlTtdKaRupam" />
+                        <input class="mt-2 text-center" style="border:0;font-weight:bold; color:black" asp-for="BonKerja.NamaKaRupam" />
+                        <input class="text-center" style="border:0; font-weight:bold; color:black" asp-for="BonKerja.NipKaRupam" />
+                    </div>
+                }
+                else
+                {
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+
+                        <img style="border-radius:10px" ; height="80%" ; width="50%" ; src="~/images/icons/ham.png" alt="TtdKaRupam" />
+                        <label style="color:black; font-weight:bold;" asp-for="BonKerja.NamaKaRupam"></label>
+                        <label style="color:black; font-weight:bold;" asp-for="BonKerja.NipKaRupam"></label>
+
+                    </div>
+                }
             </div>
         </div>
+    </div>
+   
+    <div class="mt-4" id="divCetak">
+        <button class="btn btn-primary form-control mt-2" onclick="Print()"><i class="bi bi-printer" style="margin-right:10px"></i>CETAK</button>
 
-        <div class="mt-4" id="divCetak">
-            <button class="btn btn-primary form-control mt-2" onclick="Print()"><i class="bi bi-printer" style="margin-right:10px"></i>CETAK</button>
-
-        </div>
+    </div>
 
 </body>
 
