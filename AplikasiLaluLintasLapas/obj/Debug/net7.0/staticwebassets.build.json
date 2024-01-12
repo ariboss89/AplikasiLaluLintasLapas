@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wOvoPWFF/vHjoCwc/ydvwCywS0UQH9lHJjV3zSwlr90=",
+  "Hash": "CYK1cMnxUKJH4lsYCTOSG+pUB8lKK2x3jAgtK+AkJGo=",
   "Source": "AplikasiLaluLintasLapas",
   "BasePath": "_content/AplikasiLaluLintasLapas",
   "Mode": "Default",
@@ -1530,6 +1530,23 @@
       "OriginalItemSpec": "wwwroot/images/signature/3cc9393f-f41e-481b-a633-9f51932a44bd.png"
     },
     {
+      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/8e14b61a-e75e-4e72-8c54-c1b1ee5a0671.png",
+      "SourceId": "AplikasiLaluLintasLapas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "BasePath": "_content/AplikasiLaluLintasLapas",
+      "RelativePath": "images/signature/8e14b61a-e75e-4e72-8c54-c1b1ee5a0671.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/signature/8e14b61a-e75e-4e72-8c54-c1b1ee5a0671.png"
+    },
+    {
       "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/92304b10-a7a3-4838-aac3-6b5b54bff264.mov",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
@@ -1562,6 +1579,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/signature/ee0ad232-5c4f-429c-8f47-bf309bf57591.png"
+    },
+    {
+      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/ff75f479-6a51-47af-a81a-d10ccd508d43.png",
+      "SourceId": "AplikasiLaluLintasLapas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "BasePath": "_content/AplikasiLaluLintasLapas",
+      "RelativePath": "images/signature/ff75f479-6a51-47af-a81a-d10ccd508d43.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/signature/ff75f479-6a51-47af-a81a-d10ccd508d43.png"
     },
     {
       "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/KARutan.png",

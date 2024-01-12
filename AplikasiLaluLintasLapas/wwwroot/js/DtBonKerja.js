@@ -106,7 +106,7 @@ function SaveAll() {
 
         //const dataKu = list.value.replace(/(?<=(?:^|[.?!])\W*)[a-z]/g);
 
-        const urlx = "/BonKerja/SaveAll?nip=" + nip + "&nama=" + nama + "&petugas=" + dataKu;
+        const urlx = "/BonKerja/SaveAll?nip=" + nip + "&nama=" + nama + "&petugas=" + list;
 
         console.log(urlx, "URL");
 

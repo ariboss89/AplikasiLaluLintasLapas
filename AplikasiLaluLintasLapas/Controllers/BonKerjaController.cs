@@ -494,7 +494,7 @@ namespace AplikasiLaluLintasLapas.Controllers
                 bonKerja.BonKerja.Id = Id;
                 bonKerja.BonKerja.Jumlah = checkData.Count;
                 bonKerja.BonKerja.Tanggal = DateTime.Now;
-                bonKerja.BonKerja.Petugas = user;
+                bonKerja.BonKerja.Petugas = data.Petugas;
                 bonKerja.BonKerja.TtdKaKpr = data.TtdKaKpr;
                 bonKerja.BonKerja.TtdKaRupam = data.TtdKaRupam;
                 bonKerja.BonKerja.TtdKaRutan = data.TtdKaRutan;
