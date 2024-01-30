@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CYK1cMnxUKJH4lsYCTOSG+pUB8lKK2x3jAgtK+AkJGo=",
+  "Hash": "vol1p3rzd174E+L9BPryqOajGF4suP/z9izY2i9znUE=",
   "Source": "AplikasiLaluLintasLapas",
   "BasePath": "_content/AplikasiLaluLintasLapas",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "AplikasiLaluLintasLapas/wwwroot",
       "Source": "AplikasiLaluLintasLapas",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "/Users/ariramadhan/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.13/staticwebassets/V5/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/bundle/AplikasiLaluLintasLapas.styles.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/bundle/AplikasiLaluLintasLapas.styles.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "AplikasiLaluLintasLapas.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/bundle/AplikasiLaluLintasLapas.styles.css"
+      "OriginalItemSpec": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/bundle/AplikasiLaluLintasLapas.styles.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/projectbundle/AplikasiLaluLintasLapas.bundle.scp.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/projectbundle/AplikasiLaluLintasLapas.bundle.scp.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "AplikasiLaluLintasLapas.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/projectbundle/AplikasiLaluLintasLapas.bundle.scp.css"
+      "OriginalItemSpec": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/Debug/net7.0/scopedcss/projectbundle/AplikasiLaluLintasLapas.bundle.scp.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/css/site.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/css/site.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/favicon.ico",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/favicon.ico",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/0b72b9ce-f7f0-4b5f-a1cb-ced3a94ab048.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/0b72b9ce-f7f0-4b5f-a1cb-ced3a94ab048.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/0b72b9ce-f7f0-4b5f-a1cb-ced3a94ab048.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/0b72b9ce-f7f0-4b5f-a1cb-ced3a94ab048.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/26f9b283-1295-4d65-9e8b-c16f5cceddd5.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/26f9b283-1295-4d65-9e8b-c16f5cceddd5.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/26f9b283-1295-4d65-9e8b-c16f5cceddd5.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/26f9b283-1295-4d65-9e8b-c16f5cceddd5.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/3dd4e3f5-87fd-40a8-9e24-6609cbc93b93.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/3dd4e3f5-87fd-40a8-9e24-6609cbc93b93.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/3dd4e3f5-87fd-40a8-9e24-6609cbc93b93.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/3dd4e3f5-87fd-40a8-9e24-6609cbc93b93.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/52b73cac-7a63-4532-8137-a307b79dd05d.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/52b73cac-7a63-4532-8137-a307b79dd05d.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/52b73cac-7a63-4532-8137-a307b79dd05d.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/52b73cac-7a63-4532-8137-a307b79dd05d.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/580cc3a2-20b7-4dd6-922b-0b560beeeca0.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/580cc3a2-20b7-4dd6-922b-0b560beeeca0.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/580cc3a2-20b7-4dd6-922b-0b560beeeca0.png",
       "AssetKind": "All",
@@ -1190,10 +1190,27 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/580cc3a2-20b7-4dd6-922b-0b560beeeca0.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/5e1bbf62-8263-4a39-885b-988026d77dac.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/5a86513c-5f6b-4a19-9c9c-23622bc0c9d8.jpeg",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "BasePath": "_content/AplikasiLaluLintasLapas",
+      "RelativePath": "images/aplusan/5a86513c-5f6b-4a19-9c9c-23622bc0c9d8.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/aplusan/5a86513c-5f6b-4a19-9c9c-23622bc0c9d8.jpeg"
+    },
+    {
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/5e1bbf62-8263-4a39-885b-988026d77dac.png",
+      "SourceId": "AplikasiLaluLintasLapas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/5e1bbf62-8263-4a39-885b-988026d77dac.png",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/5e1bbf62-8263-4a39-885b-988026d77dac.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/6ddff363-d994-472e-b2b6-45e990fe0ded.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/6ddff363-d994-472e-b2b6-45e990fe0ded.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/6ddff363-d994-472e-b2b6-45e990fe0ded.png",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/6ddff363-d994-472e-b2b6-45e990fe0ded.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/6fe9502e-8d9f-47b4-ba79-951d74080e8f.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/6fe9502e-8d9f-47b4-ba79-951d74080e8f.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/6fe9502e-8d9f-47b4-ba79-951d74080e8f.png",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/6fe9502e-8d9f-47b4-ba79-951d74080e8f.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/84b89171-c4f3-4d0c-b926-0d75c5fb12a0.jpg",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/84b89171-c4f3-4d0c-b926-0d75c5fb12a0.jpg",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/84b89171-c4f3-4d0c-b926-0d75c5fb12a0.jpg",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/84b89171-c4f3-4d0c-b926-0d75c5fb12a0.jpg"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/99038df2-29c7-440d-a50a-fe7b5963f93c.mp4",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/99038df2-29c7-440d-a50a-fe7b5963f93c.mp4",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/99038df2-29c7-440d-a50a-fe7b5963f93c.mp4",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/99038df2-29c7-440d-a50a-fe7b5963f93c.mp4"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/b961a9f1-3def-4a58-95f2-20ce267807c8.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/b961a9f1-3def-4a58-95f2-20ce267807c8.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/b961a9f1-3def-4a58-95f2-20ce267807c8.png",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/b961a9f1-3def-4a58-95f2-20ce267807c8.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/c4e3980a-4753-458b-ae05-6874567702c2.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/c4e3980a-4753-458b-ae05-6874567702c2.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/c4e3980a-4753-458b-ae05-6874567702c2.png",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/c4e3980a-4753-458b-ae05-6874567702c2.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/dde8a24d-ecd7-4a36-ac05-a1d72052edd0.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/dde8a24d-ecd7-4a36-ac05-a1d72052edd0.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/dde8a24d-ecd7-4a36-ac05-a1d72052edd0.png",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/dde8a24d-ecd7-4a36-ac05-a1d72052edd0.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/ec249c7b-03e5-4731-8665-e6982779b0c0.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/ec249c7b-03e5-4731-8665-e6982779b0c0.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/aplusan/ec249c7b-03e5-4731-8665-e6982779b0c0.png",
       "AssetKind": "All",
@@ -1343,10 +1360,27 @@
       "OriginalItemSpec": "wwwroot/images/aplusan/ec249c7b-03e5-4731-8665-e6982779b0c0.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/analytics.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/aplusan/fdaf403f-04e1-40d3-95e3-328706b9bf6c.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "BasePath": "_content/AplikasiLaluLintasLapas",
+      "RelativePath": "images/aplusan/fdaf403f-04e1-40d3-95e3-328706b9bf6c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/aplusan/fdaf403f-04e1-40d3-95e3-328706b9bf6c.png"
+    },
+    {
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/analytics.png",
+      "SourceId": "AplikasiLaluLintasLapas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/analytics.png",
       "AssetKind": "All",
@@ -1360,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/analytics.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/gavel.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/gavel.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/gavel.png",
       "AssetKind": "All",
@@ -1377,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/gavel.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/ham.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/ham.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/ham.png",
       "AssetKind": "All",
@@ -1394,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/ham.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/handcuffs.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/handcuffs.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/handcuffs.png",
       "AssetKind": "All",
@@ -1411,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/handcuffs.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/jail.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/jail.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/jail.png",
       "AssetKind": "All",
@@ -1428,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/jail.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/report.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/report.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/report.png",
       "AssetKind": "All",
@@ -1445,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/report.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/test.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/test.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/test.png",
       "AssetKind": "All",
@@ -1462,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/test.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/user.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/icons/user.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/icons/user.png",
       "AssetKind": "All",
@@ -1479,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot/images/icons/user.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/071a90ac-39e3-4b7f-9d7f-2d2ed8d3142e.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/071a90ac-39e3-4b7f-9d7f-2d2ed8d3142e.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/071a90ac-39e3-4b7f-9d7f-2d2ed8d3142e.png",
       "AssetKind": "All",
@@ -1496,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/071a90ac-39e3-4b7f-9d7f-2d2ed8d3142e.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/2a6755bb-d112-4e20-b3cb-2359985930f0.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/2a6755bb-d112-4e20-b3cb-2359985930f0.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/2a6755bb-d112-4e20-b3cb-2359985930f0.png",
       "AssetKind": "All",
@@ -1513,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/2a6755bb-d112-4e20-b3cb-2359985930f0.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/3cc9393f-f41e-481b-a633-9f51932a44bd.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/3cc9393f-f41e-481b-a633-9f51932a44bd.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/3cc9393f-f41e-481b-a633-9f51932a44bd.png",
       "AssetKind": "All",
@@ -1530,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/3cc9393f-f41e-481b-a633-9f51932a44bd.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/8e14b61a-e75e-4e72-8c54-c1b1ee5a0671.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/8e14b61a-e75e-4e72-8c54-c1b1ee5a0671.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/8e14b61a-e75e-4e72-8c54-c1b1ee5a0671.png",
       "AssetKind": "All",
@@ -1547,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/8e14b61a-e75e-4e72-8c54-c1b1ee5a0671.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/92304b10-a7a3-4838-aac3-6b5b54bff264.mov",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/92304b10-a7a3-4838-aac3-6b5b54bff264.mov",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/92304b10-a7a3-4838-aac3-6b5b54bff264.mov",
       "AssetKind": "All",
@@ -1564,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/92304b10-a7a3-4838-aac3-6b5b54bff264.mov"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/ee0ad232-5c4f-429c-8f47-bf309bf57591.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/ee0ad232-5c4f-429c-8f47-bf309bf57591.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/ee0ad232-5c4f-429c-8f47-bf309bf57591.png",
       "AssetKind": "All",
@@ -1581,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/ee0ad232-5c4f-429c-8f47-bf309bf57591.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/ff75f479-6a51-47af-a81a-d10ccd508d43.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/ff75f479-6a51-47af-a81a-d10ccd508d43.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/ff75f479-6a51-47af-a81a-d10ccd508d43.png",
       "AssetKind": "All",
@@ -1598,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/ff75f479-6a51-47af-a81a-d10ccd508d43.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/KARutan.png",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/images/signature/KARutan.png",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "images/signature/KARutan.png",
       "AssetKind": "All",
@@ -1615,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot/images/signature/KARutan.png"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/Aplusan.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/Aplusan.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "js/Aplusan.js",
       "AssetKind": "All",
@@ -1632,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot/js/Aplusan.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/Aplusan2.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/Aplusan2.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "js/Aplusan2.js",
       "AssetKind": "All",
@@ -1649,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot/js/Aplusan2.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/BonKerja.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/BonKerja.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "js/BonKerja.js",
       "AssetKind": "All",
@@ -1666,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot/js/BonKerja.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/BonKerja2.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/BonKerja2.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "js/BonKerja2.js",
       "AssetKind": "All",
@@ -1683,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot/js/BonKerja2.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/DtBonKerja.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/DtBonKerja.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "js/DtBonKerja.js",
       "AssetKind": "All",
@@ -1700,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot/js/DtBonKerja.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/LoadDtBonKerja.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/LoadDtBonKerja.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "js/LoadDtBonKerja.js",
       "AssetKind": "All",
@@ -1717,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot/js/LoadDtBonKerja.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/site.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/site.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1734,10 +1768,27 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/js/Wbp.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "BasePath": "_content/AplikasiLaluLintasLapas",
+      "RelativePath": "js/Wbp.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/Wbp.js"
+    },
+    {
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "SourceId": "AplikasiLaluLintasLapas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1751,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1768,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1785,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1819,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1836,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1853,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1870,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1887,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1904,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1921,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1938,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1955,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1972,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1989,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2006,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2023,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2040,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2057,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2074,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2091,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2108,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2125,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2142,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2159,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2176,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2193,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2210,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2227,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2244,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2261,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2278,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2295,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2312,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2329,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2346,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2363,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2380,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2397,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2414,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2431,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2448,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2465,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2482,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2499,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2516,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2533,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2550,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2567,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2584,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2601,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2618,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2635,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2652,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2669,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2686,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "AplikasiLaluLintasLapas",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
+      "ContentRoot": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/wwwroot/",
       "BasePath": "_content/AplikasiLaluLintasLapas",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

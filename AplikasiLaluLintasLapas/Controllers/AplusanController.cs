@@ -32,48 +32,92 @@ namespace AplikasiLaluLintasLapas.Controllers
             //{
             string wwwWebRootPath = _webHostEnvironment.WebRootPath;
 
+            int jmlWBP = aplusan.JumlahWBP;
+
+            int jmlTahanan = aplusan.Tahanan;
+            int tahananPria = aplusan.TahananPria;
+            int tahananWanita = aplusan.TahananWanita;
+
+            int jmlNarapidana = aplusan.Narapidana;
+            int narapidanaPria = aplusan.NarapidanaPria;
+            int narapidanaWanita = aplusan.NarapidanaWanita;
+
+            int jmlhKeseluruhan = aplusan.JumlahKeseluruhan;
+
             if (file != null && aplusan.Id == 0)
             {
-                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                string productPath = Path.Combine(wwwWebRootPath, @"images/aplusan");
 
-                using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                if (tahananPria + tahananWanita != jmlTahanan || narapidanaPria + narapidanaWanita != jmlNarapidana || jmlNarapidana + jmlTahanan != jmlWBP)
                 {
-                    file.CopyTo(fileStream);
+                    TempData["Error"] = "Jumlah Tahanan dan Narapidana Tidak Sesuai !!";
+
+                    return View(aplusan);
                 }
+                else
+                {
 
-                aplusan.ImgUrl = @"/images/aplusan/" + fileName;
+                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    string productPath = Path.Combine(wwwWebRootPath, @"images/aplusan");
 
-                TempData["Success"] = "Aplusan berhasil di tambahkan";
+                    using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
 
-                _db.Aplusans.Add(aplusan);
-                _db.SaveChanges();
+                    aplusan.ImgUrl = @"/images/aplusan/" + fileName;
+
+                    TempData["Success"] = "Aplusan berhasil di tambahkan";
+
+                    _db.Aplusans.Add(aplusan);
+                    _db.SaveChanges();
+                }
             }
             else if(file != null && aplusan.Id != 0)
             {
-                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                string productPath = Path.Combine(wwwWebRootPath, @"images/aplusan");
 
-                using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                if (tahananPria + tahananWanita != jmlTahanan || narapidanaPria + narapidanaWanita != jmlNarapidana || jmlNarapidana + jmlTahanan != jmlWBP)
                 {
-                    file.CopyTo(fileStream);
+                    TempData["Error"] = "Jumlah Tahanan dan Narapidana Tidak Sesuai !!";
+
+                    return View(aplusan);
                 }
+                else
+                {
 
-                aplusan.ImgUrl = @"/images/aplusan/" + fileName;
+                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                    string productPath = Path.Combine(wwwWebRootPath, @"images/aplusan");
 
-                TempData["Success"] = "Aplusan berhasil di ubah";
+                    using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
 
-                _db.Aplusans.Update(aplusan);
-                _db.SaveChanges();
+                    aplusan.ImgUrl = @"/images/aplusan/" + fileName;
+
+                    TempData["Success"] = "Aplusan berhasil di ubah";
+
+                    _db.Aplusans.Update(aplusan);
+                    _db.SaveChanges();
+                }
             }
+
             else if(file == null && aplusan.Id != 0)
             {
-               var data = _db.Aplusans.Where(x => x.Id == aplusan.Id).FirstOrDefault();
 
-                aplusan.ImgUrl = data.ImgUrl;
-                _db.Aplusans.Update(aplusan);
-                _db.SaveChanges();
+                if (tahananPria+ tahananWanita != jmlTahanan || narapidanaPria + narapidanaWanita != jmlNarapidana || jmlNarapidana + jmlTahanan != jmlWBP)
+                {
+                    TempData["Error"] = "Jumlah Tahanan dan Narapidana Tidak Sesuai !!";
 
+                    return View(aplusan);
+                }
+                else
+                {
+                    var data = _db.Aplusans.Where(x => x.Id == aplusan.Id).FirstOrDefault();
+
+                    aplusan.ImgUrl = data.ImgUrl;
+                    _db.Aplusans.Update(aplusan);
+                    _db.SaveChanges();
+                }
             }
             
             return RedirectToAction("Index");

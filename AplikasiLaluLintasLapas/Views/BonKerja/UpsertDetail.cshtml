@@ -1,4 +1,4 @@
-﻿@model AplikasiLaluLintasLapas.Models.DtBonKerja
+﻿@model AplikasiLaluLintasLapas.ViewModels.DtBonKerjaVM
 @using AplikasiLaluLintasLapas.SD
 
 @using Microsoft.AspNetCore.Identity
@@ -24,12 +24,12 @@
 
                         <div class="row p-3 border" style="border-radius: 20px; background-color: #000080">
 
-                            @if (Model.IdDetail != 0)
+                            @if (Model.DtBonKerja.IdDetail != 0)
                             {
                                 title = "Edit Bon Kerja Warga Binaan";
                             }
 
-                            <input type="hidden" asp-for="@Model.IdDetail" />
+                            <input type="hidden" asp-for="@Model.DtBonKerja.IdDetail" />
 
                             <div asp-validation-summary="ModelOnly"></div>
 
@@ -38,50 +38,51 @@
                             </div>
 
                             <div class="col-12 pt-4">
-                                <div class="row">
+          
+                                <div class="row" style=" padding-top:20px">
                                     <div class="col-lg-4 form-group row mb-2 mt-2">
-                                        <label style="color:white; font-weight:bold;" asp-for="NamaWBP"></label>
+                                        <label style="color:white; font-weight:bold;" asp-for="DtBonKerja.NamaWBP"> Nama WBP</label>
+                                    </div>
+                                    <div class="col-lg-8">
+
+                                        <select id="cbWBP" style="text-align: center; background-color: white; color: black" asp-for="@Model.DtBonKerja.NamaWBP" asp-items="@Model.ListWBP" onchange="Search()" class="form-select border-0 shadow">
+                                            <option disabled selected>PILIH WBP</option>
+                                        </select>
+
+                                        <span asp-validation-for="DtBonKerja.NamaWBP" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="DtBonKerja.JenisKelamin"></label>
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="form-group">
-                                            <input asp-for="NamaWBP" class="form-control" style="text-align:center" />
-                                            <span asp-validation-for="NamaWBP" style="color:white"></span>
+                                            <input id="txtJenisKelamin" readonly asp-for="DtBonKerja.JenisKelamin" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="DtBonKerja.JenisKelamin" style="color:white"></span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="row mt-2">
                                     <div class="col-lg-4 form-group row mb-2 mt-2">
-                                        <label style="color:white; font-weight:bold;" asp-for="JenisKelamin"> Jenis Kelamin</label>
-                                    </div>
-                                    <div class="col-lg-8 col-12">
-                                        @Html.DropDownListFor(m => m.JenisKelamin, new List<SelectListItem>
-                                                                                                                    {
-                                                new SelectListItem{Text="Laki-Laki", Value = "Laki-Laki"},
-                                                new SelectListItem{Text="Perempuan", Value = "Perempuan"},
-                                            }, "PILIH JENIS KELAMIN", new { id = "cbProgram", @class = "form-select", @style = "text-align:center" })
-                                        <span asp-validation-for="@Model.JenisKelamin" style="color:white"></span>
-                                    </div>
-                                </div>
-
-                                <div class="row mt-2">
-                                    <div class="col-lg-4 form-group row mb-2 mt-2">
-                                        <label style="color:white; font-weight:bold;" asp-for="Blok"></label>
+                                        <label style="color:white; font-weight:bold;" asp-for="DtBonKerja.Blok"></label>
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="form-group">
-                                            <input asp-for="Blok" class="form-control" style="text-align:center" />
-                                            <span asp-validation-for="Blok" style="color:white"></span>
+                                            <input id="txtBlok" readonly asp-for="DtBonKerja.Blok" class="form-control" style="color:black; text-align:center" />
+                                            <span asp-validation-for="DtBonKerja.Blok" style="color:white"></span>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="row mt-2">
                                     <div class="col-lg-4 form-group row mb-2 mt-2">
-                                        <label style="color:white; font-weight:bold;" asp-for="JenisBonKerja"> Jenis Bon Kerja</label>
+                                        <label style="color:white; font-weight:bold;" asp-for="DtBonKerja.JenisBonKerja"> Jenis Bon Kerja</label>
                                     </div>
                                     <div class="col-lg-8 col-12">
-                                        @Html.DropDownListFor(m => m.JenisBonKerja, new List<SelectListItem>
+                                        @Html.DropDownListFor(m => m.DtBonKerja.JenisBonKerja, new List<SelectListItem>
                                                                                                                     {
                                                 new SelectListItem{Text="Asimilasi", Value = "Asimilasi"},
                                                 new SelectListItem{Text="Bon Kejaksaan", Value = "Bon Kejaksaan"},
@@ -89,19 +90,19 @@
                                                 new SelectListItem{Text="Bon Kerja", Value = "Bon Kerja"},
                                                 new SelectListItem{Text="Bon Lain-Lain", Value = "Bon Lain-Lain"},
                                             }, "PILIH JENIS BONKERJA", new { id = "cbBonKerja", @class = "form-select", @style = "text-align:center" })
-                                        <span asp-validation-for="@Model.JenisKelamin" style="color:white"></span>
+                                        <span asp-validation-for="@Model.DtBonKerja.JenisBonKerja" style="color:white"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mt-2">
                                     <div class="col-lg-4 form-group row mb-2 mt-2">
-                                        <label style="color:white; font-weight:bold;" asp-for="Keterangan"></label>
+                                        <label style="color:white; font-weight:bold;" asp-for="DtBonKerja.Keterangan"></label>
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="form-group">
-                                            <textarea asp-for="Keterangan" class="form-control" style="text-align:center">
+                                            <textarea asp-for="DtBonKerja.Keterangan" class="form-control" style="text-align:center">
                                         </textarea>
-                                            <span asp-validation-for="Keterangan" style="color:white"></span>
+                                            <span asp-validation-for="DtBonKerja.Keterangan" style="color:white"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -164,9 +165,9 @@
                                     </div>
                                     <div class="col-lg-8">
                                         <div class="col-12">
-                                            @if (Model.IdDetail != 0)
+                                            @if (Model.DtBonKerja.IdDetail != 0)
                                             {
-                                                <partial name="_EditAndBackToListButton" model="@Model.IdDetail" />
+                                                <partial name="_EditAndBackToListButton" model="@Model.DtBonKerja.IdDetail" />
                                             }
                                             else
                                             {

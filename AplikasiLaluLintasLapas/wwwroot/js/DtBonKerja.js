@@ -154,3 +154,30 @@ function DataPetugas() {
         z.style.display = "none"
     }
 }
+
+function Search() {
+    var id = document.getElementById("cbWBP").value;
+    var jenis = document.getElementById("txtJenisKelamin").value;
+    var blok = document.getElementById("txtBlok").value;
+
+    $.ajax({
+        type: "GET",
+        url: "/BonKerja/GetDataWBP/" + id,
+        success: function (data) {
+
+            var data2 = JSON.stringify(data);
+
+            var wbp = JSON.parse(data2);
+
+            $("#txtJenisKelamin").val(wbp['jenisKelamin']);
+            $("#txtBlok").val(wbp['blokTahanan']);
+
+           // console.log(data, "data");
+
+        },
+        error: function (data) {
+
+            alert("GAGAL " + id);
+        }
+    });
+}

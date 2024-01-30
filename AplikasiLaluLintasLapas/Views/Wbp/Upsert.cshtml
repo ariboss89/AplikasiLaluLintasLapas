@@ -1,0 +1,138 @@
+﻿@model AplikasiLaluLintasLapas.Models.Wbp
+@using AplikasiLaluLintasLapas.SD
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Tambah Wbp";
+}
+
+<body>
+    <div style="justify-content:center" class="card shadow border-0 mt-4 p-4">
+
+        <div class="row" style="display:flex; justify-content:center">
+            <div class="col-sm-12; col-md-12; col-lg-12">
+
+                <div class="card-body p-4">
+                    <form method="post" enctype="multipart/form-data" class="row">
+
+                        <div class="row p-3 border" style="border-radius: 20px; background-color: #000080">
+
+                            @if (Model.Id != 0)
+                            {
+                                title = "Edit Wbp";
+                            }
+
+                            <input type="hidden" asp-for="@Model.Id" />
+
+                            <div asp-validation-summary="ModelOnly"></div>
+
+                            <div class="col-12 border-bottom">
+                                <h2 style="text-align:center;color:white">@title</h2>
+                            </div>
+
+                            <div class="col-12 pt-4">
+                                <div class="row">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Nama"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Nama" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Nama" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="Nomor"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Nomor" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Nomor" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white;font-weight:bold;" asp-for="Perkara
+                                               "></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="Perkara" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="Perkara" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white; font-weight:bold;" asp-for="JenisKelamin"> Jenis Kelamin</label>
+                                    </div>
+                                    <div class="col-8">
+                                        @Html.DropDownListFor(m => m.JenisKelamin, new List<SelectListItem>
+                                            {
+                                                new SelectListItem{Text="Laki-Laki", Value = "Laki-Laki"},
+                                                new SelectListItem{Text="Perempuan", Value = "Perempuan"},
+                                            }, "PILIH", new { id = "cbJenisKelamin", @class = "form-select", @style = "text-align:center" })
+                                        <span asp-validation-for="@Model.JenisKelamin" style="color:red"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white;font-weight:bold;" asp-for="MasaTahanan"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="MasaTahanan" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="MasaTahanan" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-3 mb-3">
+                                    <div class="col-lg-4 form-group row mb-2 mt-2">
+                                        <label style="color:white;font-weight:bold;" asp-for="BlokTahanan"></label>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="form-group">
+                                            <input asp-for="BlokTahanan" class="form-control" style="text-align:center" />
+                                            <span asp-validation-for="BlokTahanan" style="color:red"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-lg-4 form-group row mb-2">
+
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="col-12">
+                                            @if (Model.Id != 0 && User.IsInRole(StaticData.Role_Petugas))
+                                            {
+                                                <partial name="_EditAndBackToListButton" model="@Model.Id" />
+                                            }
+                                            
+                                            else if (Model.Id == 0 && (User.IsInRole(StaticData.Role_Petugas)))
+                                            {
+                                                <partial name="_CreateAndBackToListButton" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

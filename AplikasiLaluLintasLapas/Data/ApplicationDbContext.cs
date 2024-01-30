@@ -19,6 +19,7 @@ namespace AplikasiLaluLintasLapas.Data
         public DbSet<Aplusan> Aplusans { get; set; }
         public DbSet<DtBonKerja> DtBonKerjas { get; set; }
         public DbSet<Config> Configs { get; set; }
+        public DbSet<Wbp> Wbps { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

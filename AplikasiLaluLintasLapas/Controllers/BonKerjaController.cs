@@ -6,6 +6,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 using AplikasiLaluLintasLapas.ViewModels;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace AplikasiLaluLintasLapas.Controllers
 {
@@ -43,16 +44,27 @@ namespace AplikasiLaluLintasLapas.Controllers
 
         public IActionResult UpsertDetail(int? Id)
         {
-            DtBonKerja dtBonKerja = new DtBonKerja();
+            //DtBonKerja dtBonKerja = new DtBonKerja();
+
+            DtBonKerjaVM dtVM = new DtBonKerjaVM();
+
+            dtVM = new DtBonKerjaVM() {
+                DtBonKerja = new DtBonKerja(),
+                ListWBP = _db.Wbps.Select(i => new SelectListItem
+                {
+                    Text = i.Nama,
+                    Value = i.Id.ToString()
+                }),
+            };
 
             if (Id != null)
             {
-                if (dtBonKerja == null)
+                if (dtVM == null)
                 {
                     return NotFound();
                 }
 
-                return View(dtBonKerja);
+                return View(dtVM);
             }
             else
             {
@@ -61,7 +73,7 @@ namespace AplikasiLaluLintasLapas.Controllers
                 StaticData.TtdKaRutan = "Disapprove";
                 StaticData.TtdKaYantah = "Disapprove";
             }
-            return View(dtBonKerja);
+            return View(dtVM);
         }
 
         [HttpPost]
@@ -291,9 +303,9 @@ namespace AplikasiLaluLintasLapas.Controllers
 
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        public IActionResult UpsertDetail(DtBonKerja bonKerja)
+        public IActionResult UpsertDetail(DtBonKerjaVM bonKerja)
         {
-            if (bonKerja.IdDetail == 0)
+            if (bonKerja.DtBonKerja.IdDetail == 0)
             {
                 //bonKerja.NamaWBP = bonKerja.NamaWBP;
                 //bonKerja.Blok = bonKerja.Blok;
@@ -304,10 +316,10 @@ namespace AplikasiLaluLintasLapas.Controllers
                 string idBonKerja = "";
                 idBonKerja = $"BON-{id.ToString("D5")}";
 
-                bonKerja.IdBonKerja = idBonKerja;
+                bonKerja.DtBonKerja.IdBonKerja = idBonKerja;
 
 
-                _db.DtBonKerjas.Add(bonKerja);
+                _db.DtBonKerjas.Add(bonKerja.DtBonKerja);
                 _db.SaveChanges();
             }
             
@@ -315,10 +327,10 @@ namespace AplikasiLaluLintasLapas.Controllers
 
             TempData["success"] = " Data detail bonkerja berhasil di tambahkan";
 
-            bonKerja.IdDetail = 0;
-            bonKerja.JenisKelamin = "";
-            bonKerja.Blok = "";
-            bonKerja.Keterangan = "";
+            bonKerja.DtBonKerja.IdDetail = 0;
+            bonKerja.DtBonKerja.JenisKelamin = "";
+            bonKerja.DtBonKerja.Blok = "";
+            bonKerja.DtBonKerja.Keterangan = "";
 
             return View(bonKerja);
 
@@ -547,6 +559,41 @@ namespace AplikasiLaluLintasLapas.Controllers
             }
 
             return View(bonKerja);
+        }
+
+        [HttpGet]
+        public IActionResult GetDataWBP(int? id)
+        {
+            if (id == 0)
+            {
+                return NotFound();
+            }
+
+            var data = _db.Wbps.Where(x => x.Id == id).FirstOrDefault();
+
+            //DtBonKerjaVM VM = new DtBonKerjaVM()
+            //{
+            //    DtBonKerja = new DtBonKerja(),
+
+            //    ListWBP = _db.Wbps.Select(i => new SelectListItem
+            //    {
+            //        Text = i.NamaAlternatif,
+            //        Value = i.Id.ToString()
+            //    }),
+
+            //};
+
+            //var data = _db.Kriterias.Where(x => x.Id == id).FirstOrDefault();
+
+            //var data2 = _db.Subkriterias.Where(x => x.Kriteria == data.Nama).ToList();
+
+            //VM.Penilaian.Type = data.Type;
+            //VM.ListSub = data2;
+
+            //return Json(new { data = VM.Penilaian });
+
+            return Json(data);
+
         }
 
         #endregion

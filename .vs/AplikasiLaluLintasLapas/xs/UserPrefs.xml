@@ -1,25 +1,30 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" GitUserInfo="UsingMD" StartupConfiguration="{6AFF2846-2E56-4CEF-8FE4-CB589CE524B8}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.AplikasiLaluLintasLapas PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/Controllers/AplusanController.cs" relfile="AplikasiLaluLintasLapas/Controllers/AplusanController.cs" line="70" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="AplikasiLaluLintasLapas/Controllers/BonKerjaController.cs">
     <Files>
-      <File FileName="AplikasiLaluLintasLapas/wwwroot/js/DtBonKerja.js" />
-      <File FileName="AplikasiLaluLintasLapas/Views/BonKerja/Print.cshtml" />
-      <File FileName="AplikasiLaluLintasLapas/Controllers/BonKerjaController.cs" Line="492" Column="35" />
+      <File FileName="AplikasiLaluLintasLapas/ViewModels/DtBonKerjaVM.cs" Line="13" Column="52" IsPinned="True" />
+      <File FileName="AplikasiLaluLintasLapas/Controllers/WbpController.cs" />
+      <File FileName="AplikasiLaluLintasLapas/Views/Wbp/Upsert.cshtml" />
+      <File FileName="AplikasiLaluLintasLapas/Models/Wbp.cs" />
+      <File FileName="AplikasiLaluLintasLapas/wwwroot/js/Wbp.js" />
+      <File FileName="AplikasiLaluLintasLapas/wwwroot/js/BonKerja.js" />
+      <File FileName="AplikasiLaluLintasLapas/Views/BonKerja/Upsert.cshtml" />
+      <File FileName="AplikasiLaluLintasLapas/Views/BonKerja/UpsertDetail.cshtml" Line="79" Column="1" />
+      <File FileName="AplikasiLaluLintasLapas/Controllers/BonKerjaController.cs" Line="337" Column="10" />
+      <File FileName="AplikasiLaluLintasLapas/ViewModels/BonKerjaVM.cs" Line="1" Column="1" />
+      <File FileName="AplikasiLaluLintasLapas/wwwroot/js/DtBonKerja.js" Line="175" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AplikasiLaluLintasLapas">
-            <Node name="AplikasiLaluLintasLapas" selected="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views">
+          <Node name="AplikasiLaluLintasLapas" expanded="True">
+            <Node name="AplikasiLaluLintasLapas">
+              <Node name="Controllers" expanded="True">
+                <Node name="BonKerjaController.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
                 <Node name="BonKerja" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
@@ -31,5 +36,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/Controllers/AplusanController.cs" relfile="AplikasiLaluLintasLapas/Controllers/AplusanController.cs" line="56" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -13508,11 +13508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas.csproj",
+      "projectUniqueName": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas.csproj",
       "projectName": "AplikasiLaluLintasLapas",
-      "projectPath": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas.csproj",
+      "projectPath": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas.csproj",
       "packagesPath": "/Users/ariramadhan/.nuget/packages/",
-      "outputPath": "/Users/ariramadhan/Projects/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/",
+      "outputPath": "/Users/ariramadhan/Documents/Ariboss89/Projects/Rutan Project/AplikasiLaluLintasLapas/AplikasiLaluLintasLapas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ariramadhan/.nuget/NuGet/NuGet.Config"

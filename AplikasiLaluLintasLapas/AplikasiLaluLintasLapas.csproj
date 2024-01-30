@@ -14,6 +14,7 @@
     <None Remove="SD\" />
     <None Remove="Views\Aplusan\" />
     <None Remove="ViewModels\" />
+    <None Remove="Views\Wbp\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -25,6 +26,7 @@
     <Folder Include="Views\Aplusan\" />
     <Folder Include="wwwroot\images\aplusan\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\Wbp\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.13" />
